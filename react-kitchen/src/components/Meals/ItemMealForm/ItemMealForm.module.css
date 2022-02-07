@@ -1,0 +1,18 @@
+.form {
+
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 14px;
+  border: none;
+  background-color: #015d7c;
+  color: #f5f0e1;
+  transition: background-color ease 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #5892a8;
+  cursor: pointer;
+}

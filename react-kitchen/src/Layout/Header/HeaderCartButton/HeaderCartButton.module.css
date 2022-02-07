@@ -1,0 +1,62 @@
+.btn {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #015d7c;
+  color: #f5f0e1;
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color ease 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #5892a8;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.badge {
+  background-color: #fff1e1;
+  padding: 0.25rem 0.75rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: #60D6A7;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

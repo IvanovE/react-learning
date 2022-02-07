@@ -1,0 +1,28 @@
+.meal {
+  border-radius: 12px;
+  min-width: 18rem;
+  min-height: 12rem;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 4px 1px rgb(1 93 124 / 20%);
+}
+
+.info {
+  margin-bottom: 18px;
+}
+
+.title {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
