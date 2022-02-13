@@ -15,7 +15,6 @@ export const HeaderCartButton = ({setCartIsShown}) => {
   }, 0)
 
   const btnClasses = `${styles.btn} ${animationBtn ? styles.bump : ''}`
-  console.log(btnClasses)
 
   useEffect(() => {
     setAnimationBtn(true)

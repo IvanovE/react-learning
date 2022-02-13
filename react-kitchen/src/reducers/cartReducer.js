@@ -50,6 +50,10 @@ export const cartReducer = (state, action) => {
         items: updatedItems,
         totalAmount: updatedTotalAmount
       }
+
+    case 'CLEAR':
+      return defaultCartState
+
     default: return defaultCartState
   }
 }

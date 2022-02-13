@@ -43,6 +43,24 @@ const DUMMY_MEALS = [
     name: 'Fish',
     description: 'Delicious!',
     price: 18.99,
+  },
+  {
+    id: 'm9',
+    name: 'Bread',
+    description: 'Mmm',
+    price: 18.99,
+  },
+  {
+    id: 'm10',
+    name: 'Pasta',
+    description: 'Very tasty!',
+    price: 18.99,
+  },
+  {
+    id: 'm11',
+    name: 'Pizza',
+    description: 'The best!',
+    price: 18.99,
   }
 ]
 

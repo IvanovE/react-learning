@@ -20,11 +20,18 @@ export const CartProvider = ({children}) => {
     })
   }
 
+  const clearCartHandler = () => {
+    dispatchCartAction({
+      type: 'CLEAR'
+    })
+  }
+
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemHandler,
-    removeItem: removeItemHandler
+    removeItem: removeItemHandler,
+    clearCart: clearCartHandler
   }
 
   return (

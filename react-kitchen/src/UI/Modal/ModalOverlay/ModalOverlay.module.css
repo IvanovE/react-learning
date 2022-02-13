@@ -11,10 +11,6 @@
   animation: slide-up 300ms ease-out forwards;
 }
 
-.content {
-
-}
-
 @media (min-width: 768px) {
   .modal {
     width: 40rem;
